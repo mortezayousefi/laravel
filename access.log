@@ -1,0 +1,8 @@
+127.0.0.1 - - [15/Oct/2018:15:10:17 +0330] "HEAD / HTTP/1.1" 500 200 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [15/Oct/2018:15:10:27 +0330] "HEAD / HTTP/1.1" 500 200 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [15/Oct/2018:15:10:36 +0330] "GET / HTTP/1.1" 500 176350 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [15/Oct/2018:15:10:37 +0330] "GET /favicon.ico HTTP/1.1" 200 296 "http://marketing.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [15/Oct/2018:15:14:09 +0330] "GET / HTTP/1.1" 500 834912 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [15/Oct/2018:15:14:10 +0330] "GET /favicon.ico HTTP/1.1" 200 296 "http://marketing.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [15/Oct/2018:15:14:35 +0330] "GET / HTTP/1.1" 200 1745 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [15/Oct/2018:15:14:35 +0330] "GET /favicon.ico HTTP/1.1" 200 295 "http://marketing.local/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
