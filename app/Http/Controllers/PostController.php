@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use Illuminate\Http\Request;
-use Illuminate\Session\Store;
 
 class PostController extends Controller
 {
@@ -52,7 +51,7 @@ class PostController extends Controller
         return redirect()->route('admin.index')->with('info', 'Post created, Title is: ' . $request->input('title'));
     }
 
-    public function postAdminUpdate(Store $session, Request $request)
+    public function postAdminUpdate(Request $request)
     {
         $this->validate($request, [
             'title' => 'required|min:5',
