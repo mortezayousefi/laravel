@@ -7,5 +7,12 @@ use Illuminate\Database\Eloquent\Model;
      public function likes(){
          return $this->hasMany('App\Like');
      }
+     public function tags(){
+         return $this->belongsToMany('App\Tag')->withTimestamps();
+     }
+     public function setTitleAttribute($value)
+     {
+         $this->attributes['title'] = strtoupper($value);
+     }
 
  }
