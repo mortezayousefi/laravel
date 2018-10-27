@@ -14,5 +14,10 @@ use Illuminate\Database\Eloquent\Model;
      {
          $this->attributes['title'] = strtoupper($value);
      }
-
+     public function getTitleAttribute($value){
+         return strtolower($value);
+     }
+     public function user(){
+         return $this->belongsTo('App\User');
+     }
  }

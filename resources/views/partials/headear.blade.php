@@ -8,6 +8,26 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="{{route('blog.index')}}">blog</a>
             <a class="nav-item nav-link" href="{{route('other.about')}}">about</a>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+            </li>
+            <li class="nav-item">
+                @if (Route::has('register'))
+                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                @endif
+            </li>
+            <a class="nav-item nav-link" href="{{ route('admin.index') }}">Posts</a>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('/logout') }}"
+                   onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+                    Logout
+                </a>
+
+                <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                    {{ csrf_field() }}
+                </form>
+            </li>
         </div>
     </div>
 </nav>
